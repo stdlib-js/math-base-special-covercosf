@@ -60,7 +60,7 @@ The [coversed cosine][coversed-cosine] is defined as
 To use in Observable,
 
 ```javascript
-covercosf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-covercosf@umd/browser.js' )
+covercosf = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-covercosf@v0.1.0-umd/browser.js' )
 ```
 
 To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
@@ -72,7 +72,7 @@ var covercosf = require( 'path/to/vendor/umd/math-base-special-covercosf/index.j
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-covercosf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-covercosf@v0.1.0-umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -117,7 +117,7 @@ v = covercosf( -3.141592653589793/6.0 );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/random-array-uniform@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each-map@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/constants-float32-two-pi@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-covercosf@umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-covercosf@v0.1.0-umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
